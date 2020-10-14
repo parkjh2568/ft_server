@@ -49,6 +49,6 @@ rm var/www/html/index.nginx-debian.html
 service php7.3-fpm start
 service nginx start
 
-wervice nginx restart
+service nginx restart
 
 bash
