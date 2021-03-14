@@ -45,7 +45,8 @@ chown -R www-data:www-data /var/www/html/wordpress
 mv ./tmp/wp-config.php var/www/html/wordpress/
 
 service php7.3-fpm start
+service php7.3-fpm restart
 service nginx start
-
+service nginx restart
 
 bash
