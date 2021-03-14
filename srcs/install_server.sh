@@ -29,7 +29,7 @@ mv ./tmp/config.inc.php var/www/html/phpmyadmin/
 
 #mysql
 mysql < var/www/html/phpmyadmin/sql/create_tables.sql -u root --skip-password
-echo "set pass"
+echo "set password"
 
 mysqladmin -u root -p password
 
@@ -44,9 +44,15 @@ mv wordpress/ var/www/html/
 chown -R www-data:www-data /var/www/html/wordpress
 mv ./tmp/wp-config.php var/www/html/wordpress/
 
+rm var/www/html/index.nginx-debian.html
+
 service php7.3-fpm start
 service php7.3-fpm restart
 service nginx start
+<<<<<<< HEAD
+=======
+
+>>>>>>> 4628ae32c2790714bfee5690b2565b38b942e746
 service nginx restart
 
 bash
