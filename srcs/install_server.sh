@@ -49,10 +49,10 @@ rm var/www/html/index.nginx-debian.html
 service php7.3-fpm start
 service php7.3-fpm restart
 service nginx start
-<<<<<<< HEAD
-=======
-
->>>>>>> 4628ae32c2790714bfee5690b2565b38b942e746
+#<<<<<<< HEAD
+#=======
+#
+#>>>>>>> 4628ae32c2790714bfee5690b2565b38b942e746
 service nginx restart
 
 bash
