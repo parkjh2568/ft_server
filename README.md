@@ -1,7 +1,7 @@
 # 4.ft_server
 
 -----
-프로젝트 클론, 시작
+시작
 ```
 git clone https://github.com/parkjh2568/4.ft_server.git
 cd 4.ft_server
