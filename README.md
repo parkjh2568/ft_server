@@ -18,3 +18,5 @@ sh delete.sh
 ```
 
 -----
+docker
+debian:buster 기반으로 wordpress blog 구축
